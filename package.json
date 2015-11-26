@@ -1,0 +1,22 @@
+{
+  "name": "nist-number",
+  "version": "1.0.0",
+  "description": "Number (digit) grouping with spaces, according to NIST",
+  "main": "nist-number.js",
+  "scripts": {
+    "test": "nodeunit ./test"
+  },
+  "keywords": [
+    "digit",
+    "decimal",
+    "group",
+    "number",
+    "comma",
+    "mark"
+  ],
+  "author": "Tomas Kafka",
+  "license": "ISC",
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  }
+}

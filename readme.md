@@ -4,17 +4,22 @@ See [tests](https://github.com/tkafka/node-nist-number/blob/master/test/test-nis
 
 Install:
 
-	npm install --save nist-number
+```sh
+npm install --save nist-number
+```
 
 Use:
 
-	var nistNumber = require('nist-number')
 
-	nistNumber(123456) // = '123 456'
-	nistNumber(-123456) // = '-123 456'
-	nistNumber(-123456.7891 // = '-123 456.7891'
+```javascript
+var nistNumber = require('nist-number')
 
-	nistNumber(undefined) // = null
-	nistNumber(null) // = null
-	nistNumber('string is not a number') // = null
-	nistNumber({lol: 'object'}) // = null
+nistNumber(123456) // = '123 456'
+nistNumber(-123456) // = '-123 456'
+nistNumber(-123456.7891 // = '-123 456.7891'
+
+nistNumber(undefined) // = null
+nistNumber(null) // = null
+nistNumber('string is not a number') // = null
+nistNumber({lol: 'object'}) // = null
+```

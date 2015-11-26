@@ -1,6 +1,6 @@
 {
   "name": "nist-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Number (digit) grouping with spaces, according to NIST",
   "main": "nist-number.js",
   "scripts": {

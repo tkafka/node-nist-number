@@ -1,5 +1,6 @@
 module.exports = function(n) {
-	if (typeof n != 'number') return null;
+	if (typeof n != 'number' && typeof n != 'string') return null;
+	if (isNaN(Number(n))) return null;
 	var s = n.toString();
 
 	// get stuff before the dot
